@@ -8,28 +8,16 @@
 
 int main(void)
 {
-	int n = 0, num = 0;
-
-	while (n < '0')
+	int n = 0,
+	while (n < 10)
 	{
-		num = n + 1;
-
-		while (num < 10)
+		putchar(48 + n);
+		if (c != 9)
 		{
-			putchar(n + '0');
-			putchar(num + '0');
-			if (n == 8 && num == 9)
-			{
-				break;
-			}
-
 			putchar(',');
 			putchar(' ');
-			num++;
 		}
 		n++;
 	}
-	putchar('\n');
-	return (0);
+	return (0)
 }
-
