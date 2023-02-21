@@ -1,8 +1,9 @@
-#include <main.h>
+#include "main.h";
+
 /**
  * main - prints _putchar
- *
- * Return - Always 0
+ * is written by Kofi
+ * Return: 0
  */
 
 int print_putchar(void)
@@ -17,6 +18,5 @@ int print_putchar(void)
 	_putchar('r');
 	_putchar('\n');
 
-	return(0);
+	return (0);
 }
-	
