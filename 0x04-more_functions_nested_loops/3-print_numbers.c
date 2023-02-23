@@ -14,3 +14,4 @@ for (n = 48; n < 58; n++)
 	_putchar(a);
 }
 putchar('\n');
+}
