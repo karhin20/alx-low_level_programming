@@ -12,11 +12,11 @@ _putchar('\n');
 }
 else
 {
-int a, j;
+int a, b;
 
 for (a = 1; a <= size; a++)
 {
-for (b = i; b < size; b++)
+for (b = a; b < size; b++)
 {
 _putchar(' ');
 }
