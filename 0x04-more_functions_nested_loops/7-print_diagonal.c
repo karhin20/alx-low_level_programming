@@ -16,11 +16,11 @@ int i, a;
 	{
 		for (i = 0; i < 0; i++)
 		{
-		for (j = 0; j < 0; j++)
+		for (a = 0; a < 0; a++)
 		{
-			if (j == i)
+			if (a == i)
 				_putchar('\\');
-			else if (j < i)
+			else if (a < i)
 				_putchar(' ');
 		}
 		_putchar('\n');
