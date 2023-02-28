@@ -10,13 +10,13 @@ void puts2(char *str)
 	char *c = str;
 	int o;
 
-	while (*y != '\0')
+	while (*c != '\0')
 	{
 		c++;
 		longi++;
 	}
 	t = longi - 1;
-	for (o = 0 ; o <= t ; o++)
+	for (o = 0; o <= t; o++)
 	{
 		if (o % 2 == 0)
 	{
