@@ -24,11 +24,11 @@ char *_strdup(char *str)
 
 	dup = malloc(sizeof(char) * (i + 1));
 
-		if (dup == NULL)
-			return (NULL);
+	if (dup == NULL)
+		return (NULL);
 
 	for (n = 0; str[n]; n++)
-		dup[n] = str[i];
+		dup[n] = str[n];
 
 	return (dup);
 }
