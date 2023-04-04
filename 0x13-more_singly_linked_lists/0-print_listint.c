@@ -17,3 +17,4 @@ while (h)
 	h = h->next;
 }
 return (numnode);
+}
